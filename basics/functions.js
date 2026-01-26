@@ -20,7 +20,7 @@ function CartPrice(...num1){
 
 console.log(CartPrice(200, 400, 500)) //here cartprice has only one value but we are calling multiple parameters
 //so we use ... ->rest operator and spread operator
-
+//this is the end
 
 
 
