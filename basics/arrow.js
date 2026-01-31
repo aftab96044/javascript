@@ -19,10 +19,21 @@ console.log(this);
 // }
 // chai()
 
+const chai = () => {
+    let user = "samuel"
+    console.log(this);
+    
+}
+chai()
 
-
-
-
+const add = (n1, n2) => {
+    return n1 + n2
+}
+//another way implicit return
+/*
+const add = (n1, n2) => (n1 + n2)
+*/
+console.log(add(2, 3));
 
 
 
