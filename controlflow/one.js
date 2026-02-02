@@ -27,6 +27,15 @@ val2 = null ?? 7 //checks for safe value
 
 console.log(val1, " ", val2);
 
+//-------------Terniary Operator-----------
+// condition ? true : false
+
+const price = 80
+price >= 50 ? console.log("yes") : console.log("no");
+
+
+
+
 
 
 
