@@ -6,6 +6,13 @@ while(i <= 20)
     i += 2
 }
 
+//--------------do-while loop---------------
+
+let score = 11
+do {
+    console.log(`Score is ${score}`);
+    score ++
+} while (score < 10); //condition is checked later so it will print 11
 
 
 
