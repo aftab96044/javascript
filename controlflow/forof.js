@@ -43,7 +43,7 @@ for (const [key , value] of myObj) {
 }
 // object is not iterable in forof so we will use 'forof'
 
-
+//forof
 
 
 
