@@ -44,7 +44,7 @@ myCoding.forEach( (item) => {
     console.log(item.fileNme);
     
 })
-
+// forEach
 
 
 
