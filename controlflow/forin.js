@@ -18,7 +18,7 @@ for (const key in prog) {
     //Whichh is why Objects was introduced , in objects we put anything as key 
 }
 
-
+//forin 
 
 
 
