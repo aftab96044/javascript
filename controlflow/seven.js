@@ -10,10 +10,16 @@ console.log();
 const newNums = myNum
                 .map((num) => num * 10)
                 .map((num) => num + 1)
+                .filter((num) => num >= 40)
 
 console.log(newNums);
 
-
+/*
+map() => Transforms each element of an array using a callback function
+          ex: Convert numbers to their squares
+filter() => Selects elements that meet a condition
+          ex: Extract even numbers from a list
+*/
 
 
 
