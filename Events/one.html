@@ -26,11 +26,37 @@
     //attach event
     //jQuery - on
 
-    document.getElementById('owl').addEventListener('click', function(e){
-        console.log(e))
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, ClientY, screenX, screenY
+    // altkey, ctrlKey, shiftKey, keyCode
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Clicked inside the ul")
+    // }, false)
+
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("owl Clicked")
+    // }, false)
+    
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+        
+        
+    // }, false)
+    
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.parentNode);
+
+        if(e.target.tagName === 'IMG'){
+            
+        }
+        let removeIt = e.target.parentNode
+        removeIt.remove()
     })
 
-    
 
 </script>
 </html>
