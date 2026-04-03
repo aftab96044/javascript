@@ -89,7 +89,24 @@ async function consumePromiseFive(){
     }
     
 }
-consumePromiseFive()
+consumePromiseFive
+
+
+
+// fetch is executed first because it has special priority queue
+
+fetch('http://api.github.com/users/hiteshchoudhary').then((response) => {
+    return response.json()
+}).then((data) => {
+    console.log(data);
+    
+}).catch((error) => console.log(error)
+)
+
+
+
+
+
 
 
 
